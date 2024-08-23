@@ -1,0 +1,8 @@
+gradio
+tensorflow
+matplotlib
+numpy
+pillow
+glob
+json
+random
