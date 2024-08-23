@@ -20,18 +20,19 @@ Using **satellite imagery** and **advanced AI/ML models**, this system provides 
 
 ## Features
 
+- **Damage/no damage:** Detecting if any damage is caused du to natural disaster using **Binary classification** algorithm.
 - **Disaster Classification:** Automatically classifies the type of disaster using satellite imagery and ML models.
 - **Damage Assessment:** Evaluates regional damages, including the detection of affected buildings and infrastructure.
 - **Real-Time Insights:** Provides up-to-date information to emergency responders to make informed decisions.
 
 ## Technologies Used
 
+- DenseNet121 as the base model architecture
 - Artificial Intelligence
 - Machine Learning
 - Deep Learning
 - Satellite Imagery
 - Convolutional Neural Networks
-- DenseNet121
 
 ## System Architecture
 
@@ -42,12 +43,12 @@ The system is built around a combination of satellite imagery analysis and AI/ML
 3. **Modeling:** Various ML models are trained for tasks like disaster classification, damage assessment, and resource allocation.
 4. **Prediction:** The trained models process new satellite imagery to provide real-time insights.
 5. **Visualization:** Results are presented through an interactive dashboard, enabling emergency responders to view actionable insights.
-6. **Resource Allocation:** The system suggests optimal resource distribution based on the damage assessment and other real-time data.
 
 ## **Usage**
 
 - **Interacting with the Models:**
    - **Upload satellite images** to analyze.
+   - It detect if the area is effected or damaged by natural disaster or not.
    - The system will **classify the disaster, assess damage,** and **suggest resource allocations in real-time.**
 
 ## **License**
