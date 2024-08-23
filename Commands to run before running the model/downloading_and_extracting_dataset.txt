@@ -1,0 +1,18 @@
+## xview2 xBD Dataset is used to train and test these machine learning models. xBD dataset is collection of annotated high-resolution satellite imagery for building damage assessment.
+
+Commands to run before running the models - 
+
+## To download the dataset :
+
+1. ! wget "TRAINING DATASET URL OBTAINED FROM XVIEW2 WEBSITE"
+2. ! wget "TESTING DATASET URL OBTAINED FROM XVIEW2 WEBSITE"
+
+## To check integrity of dataset by verifying the dataset hashes :
+
+1. ! shasum -a 1 train_images_labels_targets.tar.gz
+2. ! shasum -a 1 test_images_labels_targets.tar.gz
+
+## To extract the dataset by unzipping dataset's .tar archives :
+
+1. ! tar -xvzf train_images_labels_targets.tar.gz
+2. ! tar -xvzf test_images_labels_targets.tar.gz
