@@ -7,3 +7,5 @@ glob
 json
 random
 opencv
+seaborn
+scikit-learn
