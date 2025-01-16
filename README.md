@@ -53,4 +53,4 @@ The system is built around a combination of satellite imagery analysis and AI/ML
 
 ## **License**
 
-This project is licensed under the **Apache License Version 2.0**.
+This project is licensed under the **Apache License Version 2.0**
